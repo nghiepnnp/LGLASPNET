@@ -1,0 +1,10 @@
+﻿<div class="topsearch">
+    <a id="topsearch-btn" class="topsearch-btn" href="#"><i class="fa fa-search"></i></a>
+    @using (Html.BeginForm("Search", "Site", FormMethod.Get, new { @class = "topsearch-form" }))
+    {
+    
+        <input type="text" placeholder="Nhập để tìm kiếm" name="key" value="@(Session["keywords"] ?? " ")">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    }
+</div>
+

@@ -1,0 +1,18 @@
+﻿@model IEnumerable<WebsiteBanMayAnh.Models.modelSlider>
+<div class="fr-slider-wrap">
+    <div class="fr-slider">
+        <ul class="slides">
+            @foreach (var slider in Model)
+            {
+                <li>
+                    <img src="~/Public/user/img/slider/@slider.Img" alt="">
+                    <div class="fr-slider-cont">
+                        <p class="fr-slider-more-wrap">
+                            <a class="fr-slider-more" href="#">Xem thêm</a>
+                        </p>
+                    </div>
+                </li>
+            }
+        </ul>
+    </div>
+</div>

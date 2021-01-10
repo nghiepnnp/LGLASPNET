@@ -1,0 +1,14 @@
+﻿@model IEnumerable<WebsiteBanMayAnh.Models.modelMenu>
+<div class="f-menu">
+    <h3>
+        Về Chúng Tôi
+    </h3>
+    <ul class="nav nav-pills nav-stacked">
+        @*<li><a href="#">Trang Chủ</a></li>*@
+        @foreach (var row in Model)
+        {
+            <li><a href="@row.Link">@row.Name</a></li>
+        }
+        <li><a href="tin-tuc">Bài viết mới</a></li>
+    </ul>
+</div>

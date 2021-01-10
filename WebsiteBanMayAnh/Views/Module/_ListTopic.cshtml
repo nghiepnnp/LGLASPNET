@@ -1,0 +1,21 @@
+﻿@model IEnumerable<WebsiteBanMayAnh.Models.modelTopic>
+<!-- Catalog Categories - start -->
+<div class="section-sb-current">
+    <h3><a href="#">Danh mục bài viết <span id="section-sb-toggle" class="section-sb-toggle"><span class="section-sb-ico"></span></span></a></h3>
+    <ul class="section-sb-list" id="section-sb-list">
+        @foreach (var t in Model)
+        {
+            <li class="categ-1">
+                <a href="~/@t.Slug">
+                    <span class="categ-1-label">@t.Name</span>
+                </a>
+            </li>
+        }
+        <li class="categ-1">
+            <a href="~/tat-ca-tin-tuc">
+                <span class="categ-1-label">Tất cả tin tức</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<!-- Catalog Categories - end -->

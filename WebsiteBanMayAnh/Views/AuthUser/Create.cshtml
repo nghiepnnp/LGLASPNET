@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "Đăng ký tài khoản";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+<!-- Main Content - start -->
+<main>
+    <section class="container stylization maincont">
+
+
+        <ul class="b-crumbs">
+            <li>
+                <a href="/">
+                    Trang Chủ
+                </a>
+            </li>
+            <li>
+                <span>Đăng ký</span>
+            </li>
+        </ul>
+        <h1 class="main-ttl"><span>Đăng Nhập</span></h1>
+        <div class="auth-wrap">
+            @*<div class="auth-col">
+                <h2>Login</h2>
+                <form action="login" method="post" class="login">
+                    <p>
+                        <label for="username">ID <span class="required">*</span></label><input type="text" id="username" name="user" value="Username">
+                    </p>
+                    <p>
+                        <label for="password">Mật Khẩu <span class="required">*</span></label><input type="password" id="password" name="password" value="Password">
+                    </p>
+                    <p class="auth-submit">
+                        <input type="submit" value="Login">
+                        <input type="checkbox" id="rememberme" value="forever">
+                        <label for="rememberme">Ghi nhớ</label>
+                    </p>
+                    <p class="auth-lost_password">
+                        <a href="#">Quên mật khẩu ?</a>
+                    </p>
+                </form>
+            </div>*@
+
+            <div class="auth-col">
+                    <h2>Register</h2>
+@using (Html.BeginForm("Create", "User", FormMethod.Post, new { enctype = "multipart/form-data", @class = "register" }))
+{
+    @Html.AntiForgeryToken()
+
+
+                        <p>
+                            <label for="reg_email">Email <span class="required">*</span></label><input type="text" id="reg_email">
+                        </p>
+                        <p>
+                            <label for="reg_password">Password <span class="required">*</span></label><input type="password" id="reg_password">
+                        </p>
+                        <p class="auth-submit">
+                            <input type="submit" value="Register">
+                        </p>
+}
+                </div>
+        </div>
+    </section>
+</main>
+<!-- Main Content - end -->

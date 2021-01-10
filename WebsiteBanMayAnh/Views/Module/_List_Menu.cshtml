@@ -1,0 +1,16 @@
+﻿@model IEnumerable<WebsiteBanMayAnh.Models.modelTopic>
+
+
+@foreach (var list in Model)
+{
+    <li>
+        <a href="~/@list.Slug">
+            @list.Name
+        </a>
+    </li>
+}
+<li>
+    <a href="~/tat-ca-tin-tuc">
+        Tất cả tin tức
+    </a>
+</li>

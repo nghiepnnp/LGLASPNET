@@ -1,0 +1,56 @@
+﻿<!-- Header Top Start Here -->
+<div class="header_top">
+    <div class="container">
+        <!-- Header Top Start -->
+        <div class="header-top">
+            <ul class="contactinfo nav nav-pills">
+                <li>
+                    <i class='fa fa-phone'></i> 0364 242 261
+                </li>
+                <li>
+                    <i class="fa fa-envelope"></i> lelaii200398@gmail.com
+                </li>
+            </ul>
+            @Html.Action("Auth","Module")
+        </div>
+        <!-- Header Top End -->
+    </div>
+    <!-- Container End -->
+</div>
+<!-- Header Top End Here -->
+
+<header class="header">
+    <!-- Logo, Shop-menu - start -->
+    <div class="header-middle">
+        <div class="container header-middle-cont">
+            <div class="toplogo">
+                <a href="/">
+                    <img src="~/Public/user/img/logo/logo1.png" alt="AllStore - MultiConcept eCommerce Template">
+                </a>
+            </div>
+            <div class="shop-menu">
+                <ul>
+                    @Html.Action("Cart", "Cart")
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Logo, Shop-menu - end -->
+    <!-- Topmenu - start -->
+    <div class="header-bottom">
+        <div class="container">
+            <nav class="topmenu">
+                <!-- Catalog menu - start -->
+                @Html.Action("Categories", "Module")
+                <!-- Catalog menu - end -->
+                <!-- Main menu - start -->
+                @Html.Action("Menu", "Module")
+                <!-- Main menu - end -->
+                <!-- Search - start -->
+                @Html.Action("Search", "Module")
+                <!-- Search - end -->
+            </nav>
+        </div>
+    </div>
+    <!-- Topmenu - end -->
+</header>

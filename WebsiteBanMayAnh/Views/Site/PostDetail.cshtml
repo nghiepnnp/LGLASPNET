@@ -1,0 +1,39 @@
+﻿@model WebsiteBanMayAnh.Models.modelPost
+@{
+    ViewBag.Title = "Chi tiết bài viết";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+<section class="container">
+            <h1 class="main-ttl"><span>@Model.Title - @Model.Topid</span></h1>
+            @Html.Raw(Model.Detail)
+    <br /><br /><br /><br />
+</section>
+<section class="container">
+    <div class="col-md-12">
+        <h2 class="main-ttl"> Bài viết cùng danh mục</h2>
+            <ul>
+                @foreach (var row in ViewBag.listother)
+                {
+                    <li> <a href="~/@row.Slug"> @row.Title<small><i>(@String.Format("{0:MM/dd/yyyy}", row.Created_At))</i></small> </a></li>
+                }
+            </ul>
+        <br /> <br />
+        @*<div class="zalo-chat-widget" data-oaid="579745863508352884" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="0" data-width="350" data-height="420"></div>
+
+        <script src="https://sp.zalo.me/plugins/sdk.js"></script>*@
+    </div>
+    
+</section>
+<div class="container">
+    <div class="fb-like" data-href="https://www.facebook.com/LGLCamera-633253537294664"
+         data-width="850" data-layout="standard" data-action="like" data -size="small"
+         data-share="true">
+
+    </div>
+    <div class="fb-comments" data-href="http://localhost:49710/Site/ProductDetail"
+         data-numposts="10" data-width="1050">
+
+    </div>
+
+</div>
+

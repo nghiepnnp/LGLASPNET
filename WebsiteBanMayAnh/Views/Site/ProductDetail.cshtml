@@ -1,0 +1,273 @@
+﻿@model WebsiteBanMayAnh.Models.modelProduct
+@{
+    ViewBag.Title = "Chi tiết sản phẩm";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+<section class="container">
+    <!-- Single Product - start -->
+    <div class="prod-wrap">
+
+        <!-- Product Images -->
+        <div class="prod-slider-wrap">
+            <div class="prod-slider">
+                <ul class="prod-slider-car">
+                    <li>
+                        <a data-fancybox-group="product" class="fancy-img" href="~/@Model.Slug">
+                            <img src="~/Public/user/img/products/@Model.Img" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a data-fancybox-group="product" class="fancy-img" href="~/@Model.Slug">
+                            <img src="~/Public/user/img/products/@Model.Img" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a data-fancybox-group="product" class="fancy-img" href="~/@Model.Slug">
+                            <img src="~/Public/user/img/products/@Model.Img" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a data-fancybox-group="product" class="fancy-img" href="~/@Model.Slug">
+                            <img src="~/Public/user/img/products/@Model.Img" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a data-fancybox-group="product" class="fancy-img" href="~/@Model.Slug">
+                            <img src="~/Public/user/img/products/@Model.Img" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a data-fancybox-group="product" class="fancy-img" href="~/@Model.Slug">
+                            <img src="~/Public/user/img/products/@Model.Img" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a data-fancybox-group="product" class="fancy-img" href="~/@Model.Slug">
+                            <img src="~/Public/user/img/products/@Model.Img" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a data-fancybox-group="product" class="fancy-img" href="~/@Model.Slug">
+                            <img src="~/Public/user/img/products/@Model.Img" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="prod-thumbs">
+                <ul class="prod-thumbs-car">
+                    <li>
+                        <a data-slide-index="0" href="~/@Model.Slug">
+                            <img src="~/Public/user/img/products/@Model.Img" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a data-slide-index="1" href="~/@Model.Slug">
+                            <img src="~/Public/user/img/products/@Model.Img" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a data-slide-index="2" href="~/@Model.Slug">
+                            <img src="~/Public/user/img/products/@Model.Img" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a data-slide-index="3" href="~/@Model.Slug">
+                            <img src="~/Public/user/img/products/@Model.Img" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a data-slide-index="4" href="~/@Model.Slug">
+                            <img src="~/Public/user/img/products/@Model.Img" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a data-slide-index="5" href="~/@Model.Slug">
+                            <img src="~/Public/user/img/products/@Model.Img" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a data-slide-index="6" href="~/@Model.Slug">
+                            <img src="~/Public/user/img/products/@Model.Img" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a data-slide-index="7" href="~/@Model.Slug">
+                            <img src="~/Public/user/img/products/@Model.Img" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Product Description/Info -->
+        <div class="prod-cont">
+            <h1 class="main-ttl"><span>@Model.Name @*- @Model.CatId*@</span></h1>
+            <ul>
+                <li>
+                    <h2 class="price">
+                        @String.Format("{0:0,0₫}", @Model.Price_sale)<br />
+                        <del class="price" style="color:red">@String.Format("{0:0,0₫}", @Model.Price)</del>
+                    </h2>
+                </li>
+            </ul>
+            <div class="prod-cont-txt">
+                @*@{
+                        foreach (var i in Model.Detail.Split(new[] { '\n' }))
+                        {
+                            <small class="text-dark"> @i</small><br>
+
+                        }
+                    }*@
+                @Html.Raw(Model.Detail)
+            </div>
+            <p class="prod-actions">
+                <a href="#" class="prod-favorites"><i class="fa fa-heart"></i> Yêu thích</a>
+                <a href="#" class="prod-compare"><i class="fa fa-bar-chart"></i>So sánh giá</a>
+            </p>
+            <div class="prod-info">
+                <form action="cart/Additem?productID=@Model.Id" method="POST">
+                    <p class="prod-qnt">
+                        <input value="1" type="text" min="1" max="10" name="qty">
+                        <a class="prod-plus"><i class="fa fa-angle-up"></i></a>
+                        <a class="prod-minus"><i class="fa fa-angle-down"></i></a>
+                    </p>
+
+                    <p class="prod-addwrap">
+                        <button type="submit" style="border:0; background:#fff">
+                            @*<a class="btn btn-success btn-sm"
+                               href="~/them-sp-giohang?productID=@Model.Id">
+                                <span class="glyphicon glyphicon-shopping-cart"></span>  Thêm vào giỏ
+                            </a>*@
+                            <div class="btn btn-success btn-sm">
+
+                            <span class="glyphicon glyphicon-shopping-cart"></span>  Thêm vào giỏ
+                            </div>
+                        </button>
+                    </p>
+                </form>
+
+            </div>
+
+
+        </div>
+        <!-- Product Tabs -->
+        <div class="prod-tabs-wrap">
+            <ul class="prod-tabs">
+                <li><a data-prodtab-num="1" class="active" href="#" data-prodtab="#prod-tab-1">Mô tả sản phẩm</a></li>
+            </ul>
+            <div class="prod-tab-cont">
+
+                <p data-prodtab-num="1" class="prod-tab-mob active" data-prodtab="#prod-tab-1">Mô tả sản phẩm</p>
+                <div class="prod-tab stylization" id="prod-tab-1">
+                    <p>@Html.Raw(Model.Metadesc) </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Single Product - end -->
+    <!-- Related Products - start -->
+
+    <div class="prod-related">
+        <h2><span>Sản phẩm mới nhập về</span></h2>
+        <div class="prod-related-car" id="prod-related-car">
+            <ul class="slides">
+                <li class="prod-rel-wrap">
+                    @foreach (var news in ViewBag.news)
+                    {
+                        <div class="prod-rel">
+                            <a href="~/@news.Slug" class="prod-rel-img">
+                                <img src="~/Public/user/img/products/@news.Img" alt="Adipisci aperiam commodi">
+                            </a>
+                            <div class="prod-rel-cont">
+                                <h3><a href="~/@news.Slug">@news.Name @*@news.CatId*@</a></h3>
+                                <p class="prod-rel-price">
+                                    <b>@String.Format("{0:0,0₫}", @news.Price_sale)</b>
+                                </p>
+                                <div class="prod-rel-actions">
+                                    <a title="Yêu thích" href="#" class="prod-rel-favorites"><i class="fa fa-heart"></i></a>
+                                    <a title="So sánh giá" href="#" class="prod-rel-compare"><i class="fa fa-bar-chart"></i></a>
+                                    <p class="prod-i-addwrap">
+                                        <a title="Thêm vào giỏ hàng" href="#" class="prod-i-add"><i class="fa fa-shopping-cart"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+    <!-- Related Products - end -->
+</section>
+
+<section class="container">
+    <!-- Popular Products -->
+    <div class="fr-pop-wrap">
+
+        <h3 class="component-ttl"><span>Sản phẩm cùng danh mục</span></h3>
+
+
+
+        <div class="fr-pop-tab-cont">
+
+            <p data-frpoptab-num="1" class="fr-pop-tab-mob active" data-frpoptab="#frpoptab-tab-1"> </p>
+            <div class="flexslider prod-items fr-pop-tab" id="frpoptab-tab-1">
+
+                @foreach (var row in ViewBag.listother)
+                {
+                    <ul class="slides">
+
+                        <li class="prod-i">
+                            <div class="prod-i-top">
+                                <a href="@row.Slug" class="prod-i-img"><!-- NO SPACE --><img src="~/Public/user/img/products/@row.Img" alt="Aspernatur excepturi rem"><!-- NO SPACE --></a>
+                                <p class="prod-i-info">
+
+                                </p>
+                                <p class="prod-i-info">
+                                    <a href="#" class="prod-i-favorites"><span>Yêu thích</span><i class="fa fa-heart"></i></a>
+                                    <a href="~/@row.Slug" class="prod-i-favorites"><span>Chi tiết sản phẩm</span><i class="fa fa-search"></i></a>
+                                    <a class="prod-i-compare" href="#"><span>So sánh</span><i class="fa fa-bar-chart"></i></a>
+                                </p>
+                                <p class="prod-i-addwrap">
+                                    <a href="#" class="prod-i-add">Thêm vào giỏ hàng</a>
+                                </p>
+                            </div>
+                            <h3>
+                                <a href="@row.Slug">@row.Name - @row.CatId</a>
+                            </h3>
+                            <p class="prod-i-price">
+                                <b>@String.Format("{0:0,0₫}", @row.Price)</b>
+                            </p>
+
+                        </li>
+
+                    </ul>
+
+                }
+
+            </div>
+        </div>
+        <!-- .fr-pop-tab-cont -->
+    </div>
+    <!-- //Popular Products -->
+
+</section>
+<section>
+    <div class="container">
+        <div class="fb-like" data-href="https://www.facebook.com/LGLCamera-633253537294664"
+             data-width="850" data-layout="standard" data-action="like" data -size="small"
+             data-share="true">
+
+        </div>
+        <div class="fb-comments" data-href="http://localhost:49710/Site/ProductDetail"
+             data-numposts="10" data-width="1050">
+
+        </div>
+        
+    </div>
+</section>
+

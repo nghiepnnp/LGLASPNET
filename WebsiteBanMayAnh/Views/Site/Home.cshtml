@@ -1,0 +1,29 @@
+﻿@model IEnumerable<WebsiteBanMayAnh.Models.modelCategory>
+@{
+    ViewBag.Title = "2117110029";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+<main>
+    <section class="container">
+        @Html.Action("SlideShow", "Module")
+        <!-- Slider -->
+        <!-- Popular Products -->
+        @foreach (var cat in Model)
+        {
+            <div class="fr-pop-wrap">
+                <h3 class="component-ttl"><span> <a href="~/@cat.Slug">@cat.Name</a></span></h3>
+                @Html.Action("ProductHome", "Site", new { catid = cat.Id })
+            </div>
+        }
+        <div class="fr-pop-wrap">
+            <h3 class="component-ttl"><span> <a href="#">Khuyến mãi</a></span></h3>
+            @Html.Action("HomeProductSale", "Site")
+        </div>
+
+        @Html.Action("HomePostNew","Site")
+    </section>
+
+</main>
+
+
+

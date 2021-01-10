@@ -1,0 +1,41 @@
+﻿<ul>
+    @if (Session["User"] == null)
+    {
+        <li>
+            <a href="#" class="fa fa-user">Tài khoản<i class="lnr lnr-chevron-down"></i></a>
+            <!-- Dropdown Start -->
+            <ul class="ht-dropdown">
+                <li><a href="/login">Đăng Nhập</a></li>
+                <li><a href="#">Đăng Ký</a></li>
+            </ul>
+            <!-- Dropdown End -->
+        </li>
+
+    }
+    else
+    {
+
+        <li>
+            <a href="#" class="fa fa-user">Xin chào, @Session["User"].ToString()<i class="lnr lnr-chevron-down"></i></a>
+            <!-- Dropdown Start -->
+            <ul class="ht-dropdown">
+
+                @if (Convert.ToInt32(Session["Role"]) != 0)
+                {
+                    <li><a href="~/admin" target="_blank">Trang quản trị</a></li>
+                                <li><a href="#">Thông tin</a></li>
+                                <li><a href="/logout">Đăng Xuất</a></li>
+                }
+                else
+                {
+                    <li><a href="/logout">Thông tin</a></li>
+                                <li><a href="/logout">Đăng Xuất</a></li>
+                }
+            </ul>
+            <!-- Dropdown End -->
+        </li>
+
+
+
+    }
+</ul>

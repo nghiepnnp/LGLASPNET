@@ -1,0 +1,32 @@
+﻿@model IEnumerable<WebsiteBanMayAnh.ProductsCategory>
+
+<div class="fr-pop-tab-cont">
+    <div class="flexslider prod-items fr-pop-tab" id="frpoptab-tab-1">
+        <ul class="slides">
+@foreach (var p in Model)
+{
+            <li class="prod-i">
+                <div class="prod-i-top">
+                    <a href="~/@p.ProductSlug" class="prod-i-img" title="Hình ảnh"><!-- NO SPACE --><img src="~/Public/user/img/products/@p.ProductImg" alt="Aspernatur excepturi rem"><!-- NO SPACE --></a>
+                    <p class="prod-i-info">
+                        <a href="#" class="prod-i-favorites"><span>Yêu thích</span><i class="fa fa-heart"></i></a>
+                        <a href="~/@p.ProductSlug" class="prod-i-favorites"><span>Chi tiết sản phẩm</span><i class="fa fa-search"></i></a>
+                        <a class="prod-i-compare" href="#"><span>So sánh</span><i class="fa fa-bar-chart"></i></a>
+                    </p>
+                    <p class="prod-i-addwrap">
+                            <a href="~/them-sp-giohang?productID=@p.ProductId&quantity=1" class="prod-i-add">Thêm vào giỏ hàng</a>
+                        </p>
+                </div>
+                <h3>
+                    <a href="~/@p.ProductSlug">@p.ProductName - @p.CategoryName</a>
+                </h3>
+                <p class="prod-i-price">
+                    <b>@String.Format("{0:0,0₫}", @p.ProductPrice)</b>
+                </p>
+                
+            </li>
+}
+        </ul>
+    </div>
+</div>
+   

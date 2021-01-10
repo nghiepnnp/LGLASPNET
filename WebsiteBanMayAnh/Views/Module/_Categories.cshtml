@@ -1,0 +1,53 @@
+﻿@model IEnumerable<WebsiteBanMayAnh.Models.modelCategory>
+<div class="topcatalog">
+    <a class="topcatalog-btn"><span>Tất cả</span> danh mục</a>
+    <ul class="topcatalog-list">
+        @foreach (var cate in Model)
+        {
+            if (cate.ParentId == 0)
+            {
+            <li>
+                <a href="~/@cate.Slug">
+                    @cate.Name
+                </a>
+                <i class="fa fa-angle-right"></i>
+                <ul>
+
+                    @foreach (var catecon in Model)
+                    {
+                        if (catecon.ParentId == cate.Id)
+                        {
+                            <li>
+                                <a href="~/@cate.Slug/@catecon.Slug">
+                                    @catecon.Name
+                                </a>
+                                @*<i class="fa fa-angle-right"></i>*@
+                                @*<ul>
+                                        <li>
+                                            <a href="catalog-list.html">
+                                                Máy ảnh canon
+                                            </a>
+                                        </li>
+                                    </ul>*@
+                            </li>
+
+                        }
+
+                    }
+
+                </ul>
+            </li>
+            }
+        }
+        <li>
+            <a href="~/san-pham-khuyen-mai">
+                Sản phẩm khuyến mãi
+            </a>
+        </li>
+        <li>
+            <a href="~/tat-ca-san-pham">
+                Tất cả sản phẩm
+            </a>
+        </li>
+    </ul>
+</div>

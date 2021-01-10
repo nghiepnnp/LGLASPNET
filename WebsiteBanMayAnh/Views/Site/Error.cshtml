@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Error";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+<!-- Main Content - start -->
+<main>
+    <section class="container">
+
+
+        <div class="err404">
+            <h1 class="err404-ttl">404</h1>
+            <p class="err404-subttl">
+
+            </p>
+@using (Html.BeginForm("Search", "Site", FormMethod.Get, new { @class = "err404-search" }))
+{
+            
+                <input type="text" placeholder="Nhập để tìm kiếm ..." name="key" value="@(Session["keywords"] ?? " ")">
+                <button type="submit"><i class="fa fa-search"></i></button>
+
+}
+        </div>
+
+    </section>
+</main>
+<!-- Main Content - end -->

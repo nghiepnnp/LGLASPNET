@@ -1,0 +1,10 @@
+﻿@model IEnumerable<WebsiteBanMayAnh.Models.modelTopic>
+<div class="posts-wrap">
+    <h3 class="component-ttl"><span>Tin mới nhất</span></h3>
+    <div class="posts-list">
+        @foreach (var post in Model)
+        {
+            @Html.Action("PostNew", "Site", new { topid = post.Id })
+        }
+    </div>
+</div>

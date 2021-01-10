@@ -1,0 +1,28 @@
+﻿@model WebsiteBanMayAnh.Models.modelPost
+@{
+    ViewBag.Title = @Model.Title;
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+<div class="container">
+    <h1 style="font-size:20px;">@Html.Raw(Model.Title)</h1>
+    <br />
+   <small><b>@String.Format("{0:dd/MM/yyyy}", Model.Created_At)</b></small>
+    @Html.Raw(Model.Detail)
+
+    <div class="text-center">
+        
+        <div class="fb-comments" data-href="http://localhost:49710/Site/ProductDetail"
+             data-numposts="10" data-width="850">
+
+        </div>
+        <div class="fb-like" data-href="https://www.facebook.com/LGLCamera-633253537294664"
+             data-width="650" data-layout="standard" data-action="like" data -size="small"
+             data-share="true">
+
+        </div>
+    </div>
+    
+    
+</div>
+
+

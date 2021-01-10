@@ -1,0 +1,26 @@
+﻿@model IEnumerable<WebsiteBanMayAnh.Models.modelCategory>
+<!-- Catalog Categories - start -->
+<div class="section-sb-current">
+    <h3><a href="#">Danh mục sản phẩm <span id="section-sb-toggle" class="section-sb-toggle"><span class="section-sb-ico"></span></span></a></h3>
+    <ul class="section-sb-list" id="section-sb-list">
+        @foreach (var c in Model)
+        {
+            <li class="categ-1">
+                <a href="~/@c.Slug">
+                    <span class="categ-1-label">@c.Name</span>
+                </a>
+            </li>
+        }
+        <li class="categ-1">
+            <a href="~/san-pham-khuyen-mai">
+                <span class="categ-1-label">Sản phẩm khuyến mãi</span>
+            </a>
+        </li>
+        <li class="categ-1">
+            <a href="~/tat-ca-san-pham">
+                <span class="categ-1-label">Tất cả sản phẩm</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<!-- Catalog Categories - end -->

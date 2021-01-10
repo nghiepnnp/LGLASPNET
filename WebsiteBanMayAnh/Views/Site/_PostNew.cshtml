@@ -1,0 +1,17 @@
+﻿@model IEnumerable<WebsiteBanMayAnh.Models.modelPost>
+
+@foreach (var post in Model)
+{
+    <div class="posts-i">
+        <a class="posts-i-img" href="~/@post.Slug">
+            <span style="background: url(Public/user/img/post/@post.Img)"></span>
+        </a>
+        <time class="posts-i-date" datetime="@String.Format("{0:dd/MM/yyyy}", post.Created_At)"><span>@String.Format("{0:dd/MM/yyyy}", post.Created_At)</span></time>
+        <div class="posts-i-info">
+            <a href="~/@post.Slug" class="posts-i-ctg">Chi tiết</a>
+            <h3 class="posts-i-ttl">
+                <a href="~/@post.Slug">@post.Title</a>
+            </h3>
+        </div>
+    </div>
+}

@@ -1,0 +1,30 @@
+﻿@model IEnumerable<WebsiteBanMayAnh.Models.modelMenu>
+<button type="button" class="mainmenu-btn">Menu</button>
+<ul class="mainmenu">
+    @foreach (var menu in Model)
+    {
+        <li class="menu-item">
+            <a href="@menu.Link">
+                @menu.Name 
+            </a>
+            <ul class="sub-menu">
+                @if (menu.Type == "post")
+                {
+                    @Html.Action("List_Menu", "Module")
+                }
+                    @*<li>
+                        <a href="product.html">
+                            Bảo Hành
+                        </a>
+                    </li>
+                    <li>
+                        <a href="product-2.html">
+                            Bảo Hành
+                        </a>
+                    </li>*@
+                </ul>
+        </li>
+
+    }
+    
+</ul>

@@ -1,0 +1,97 @@
+﻿@model List<WebsiteBanMayAnh.Models.CartItem>
+@{
+    ViewBag.Title = "Giỏ Hàng";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+
+<main>
+    <section class="container stylization maincont">
+
+
+        <ul class="b-crumbs">
+            <li>
+                <a href="~/">
+                    Trang Chủ
+                </a>
+            </li>
+            <li>
+                <span>Giỏ Hàng</span>
+            </li>
+        </ul>
+        <h1 class="main-ttl"><span>Giỏ Hàng</span></h1>
+        <!-- Cart Items - start -->
+        <form action="@Url.Action("updateitem")" method="get"">
+            <div class="cart-items-wrap">
+                <table class="cart-items">
+                    <thead>
+                        <tr>
+                            <td class="cart-del">STT</td>
+                            <td class="cart-image">&nbsp;&nbsp;&nbsp;&nbsp; Hình ảnh</td>
+                            <td class="cart-ttl">Sản phẩm</td>
+                            <td class="cart-price">Giá</td>
+                            <td class="cart-quantity">Số lượng</td>
+                            <td class="cart-summ">Tổng</td>
+                            <td class="cart-del">&nbsp;</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{ long TongTien = 0;}
+                        @foreach (var iten in Model)
+                        {
+                            TongTien += @iten.product.Price * @iten.quantity;
+                            var sum = @iten.product.Price * @iten.quantity;
+                            <tr>
+                                <td>
+                                    <a>@iten.product.Id</a>
+                                </td>
+                                <td class="cart-clear">
+                                    <a href="~/@iten.product.Slug">
+                                        <img src="~/Public/user/img/products/@iten.product.Img" alt="Hình sản phẩm">
+                                    </a>
+                                </td>
+                                <td class="cart-ttl">
+                                    <a href="~/@iten.product.Slug">@iten.product.Name</a>
+                                    <p>Loại sản phẩm: @iten.product.CatId</p>
+                                </td>
+                                <td class="cart-price">
+                                    <b>@String.Format("{0:0,0₫}", @iten.product.Price)</b>
+                                </td>
+                                <td class="cart-quantity">
+                                    <p class="cart-qnt">
+                                        <input value="@iten.quantity" type="text" name="P_quantity" min="1" step="1"/>
+                                        
+                                    </p>
+                                </td>
+                                <td class="cart-summ">
+                                    <b>@String.Format("{0:0,0₫}", @sum)</b>
+                                    @*<p class="cart-forone">unit price <b>$220</b></p>*@
+                                </td>
+                                <td class="cart-del">
+                                    <a href="~/xoa-gio-hang?productID=@iten.product.Id" class="cart-remove"></a>
+                                </td>
+                            </tr>
+                        }
+                        
+                        
+                    </tbody>
+                </table>
+            </div>
+            <ul class="cart-total">
+                <li class="cart-summ">THÀNH TIỀN: <b>@String.Format("{0:0,0₫}", @TongTien)</b></li>
+            </ul>
+            <div class="cart-submit">
+                <div class="cart-coupon">
+                    <input placeholder="Mã giảm giá (nếu có)" type="text">
+                    <a class="cart-coupon-btn" href="#"><img src="Public/user/img/ok.png" alt="your coupon"></a>
+                    
+                    
+                </div>
+                <a href="~/thanh-toan" class="cart-submit-btn">Thanh Toán</a>
+                <br /><br /><br />
+                <a href="~/"> <i class="btn-primary"></i> Tiếp tục mua hàng</a>
+            </div>
+        </form>
+        <!-- Cart Items - end -->
+
+    </section>
+</main>

@@ -1,0 +1,29 @@
+﻿@model IEnumerable<WebsiteBanMayAnh.Models.modelPost>
+
+
+<div class="fr-pop-tab-cont">
+    <div class="flexslider prod-items fr-pop-tab" id="frpoptab-tab-1">
+        @*<ul class="slides">*@
+            @foreach (var p in Model)
+            {
+                <div class="prod-i">
+                    <div class="prod-i-top">
+                        <a href="~/@p.Slug" class="prod-i-img"><!-- NO SPACE --><img src="~/Public/user/img/post/@p.Img" alt="Sunt temporibus velit"><!-- NO SPACE --></a>
+
+                        <a href="~/@p.Slug" class="prod-i-buy">Chi tiết</a>
+                        <div class="prod-sticker">
+                            <p class="prod-sticker-1"><i class="">(@String.Format("{0:dd/MM/yyyy}", p.Created_At))</i></p>
+                            
+                        </div>
+                    </div>
+                    <h3>
+                        <a href="product.html">@p.Title</a>
+                    </h3>
+                    
+                </div>
+            }
+        @*</ul>*@
+    </div>
+</div>
+
+

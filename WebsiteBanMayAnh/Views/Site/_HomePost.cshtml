@@ -1,0 +1,32 @@
+﻿@model IEnumerable<WebsiteBanMayAnh.Models.modelTopic>
+@{
+    ViewBag.Title = "_HomePost";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+<main>
+    <section class="container">
+        @*@Html.Action("SlideShow", "Module")*@
+        <!-- Slider -->
+        <!-- Popular Products -->
+        <ul class="b-crumbs">
+            <li>
+                <a href="/">
+                    Trang chủ
+                </a>
+            </li>
+            <li>
+                <span>Tin tức</span>
+            </li>
+        </ul>
+        @foreach (var pos in Model)
+        {
+            
+            <div class="fr-pop-wrap">
+                <h3 class="component-ttl"><span><a href="~/@pos.Slug">@pos.Name</a>  </span></h3>
+                
+                @Html.Action("PostHome", "Site", new { topid = pos.Id })
+            </div>
+        }
+
+    </section>
+</main>

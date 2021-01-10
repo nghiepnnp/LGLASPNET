@@ -1,0 +1,318 @@
+﻿<!--
+*
+*  INSPINIA - Responsive Admin Theme
+*  version 2.8
+*
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>INSPINIA | Dashboard</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Toastr style -->
+    <link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
+
+    <!-- Gritter -->
+    <link href="js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav metismenu" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element">
+                            
+                            <a href="#" style="text-align: center;">
+                                <h1 class="block m-t-xs font-bold">Lê Gia Lai</h1>
+                                <span class="text-muted text-xs block">FrontEnd Developer</span>
+                            </a>
+                            
+                        </div>
+                        <div class="logo-element">
+                            ADMIN
+                        </div>
+                    </li>
+                    
+                    <li class="active">
+                        <a href="#"><i class="fa fa-tachometer"></i> <span class="nav-label">Bảng điều khiển</span></a>
+
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="fa fa-bars"></i> <span class="nav-label">Sản phẩm</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="#" class="">Danh mục sản phẩm</a> </li>
+                            <li><a href="#">Loại sản phẩm</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-bars"></i> <span class="nav-label">Bài viết</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="#">Danh mục bài viết</a>
+                            </li>
+                            <li><a href="#">Loại bài viết</a>
+                            </li>
+                            <li><a href="#">Trang đơn</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-bars"></i> <span >Đơn hàng</span> </a>
+
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-bars"></i> <span >Khách hàng</span> </a>
+
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-bars"></i> <span >Liên hệ</span> </a>
+
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-bars"></i> <span class="nav-label">Giao diện</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="#">Menu</a>
+                            </li>
+                            <li><a href="#">Slider</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-bars"></i> <span class="nav-label">Hệ thống</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="#">Thành viên</a>
+                            </li>
+                            <li><a href="#">Thêm thành viên</a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+        <div class="row border-bottom">
+        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+            <form role="search" class="navbar-form-custom" action="#">
+                <div class="form-group">
+                    <input type="text" placeholder="Nhập để tìm kiếm" class="form-control" name="top-search" id="top-search">
+                </div>
+            </form>
+        </div>
+            <ul class="nav navbar-top-links navbar-right">
+                <li >
+                    <a href="#">
+                        <i class="fa fa-home"></i>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                        <i class="fa fa-bell"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-alerts">
+                        <li>
+                            <a href="#" >
+                                
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+
+                
+                <li class="dropdown">
+                    <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user-circle"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-alerts">
+                        <li>
+                            <a href="#" class="">
+                                <div>
+                                    <i class="fa fa-user"></i> Hồ sơ
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="">
+                                <div>
+                                    <i class="fa fa-cog"></i> Cài đặt
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="">
+                                <div>
+                                    <i class="fa fa-sign-out"></i> Thoát
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </nav>
+        </div>
+        <!-- renderbody -->         
+        <div class="wrapper wrapper-content">
+            <div class="row">
+
+                <div class="col-lg-3">
+                    <div class="widget style1 lazur-bg">
+                        <div class="row">
+                            <div class="col-3">
+                                <i class="fa fa-folder fa-5x"></i>
+                            </div>
+                            <div class="col-9 text-right">
+                                <span> Danh mục sản phẩm </span>
+                                <h2 class="font-bold">1</h2>
+                                <a href="#" title="Category" style="color: Black"><span>  Truy cập ngay</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="widget style1 lazur-bg">
+                        <div class="row">
+                            <div class="col-3">
+                                <i class="fa fa-folder fa-5x"></i>
+                            </div>
+                            <div class="col-9 text-right">
+                                <span> Danh mục sản phẩm </span>
+                                <h2 class="font-bold">1</h2>
+                                <a href="#" title="Category" style="color: Black"><span>  Truy cập ngay</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="widget style1 lazur-bg">
+                        <div class="row">
+                            <div class="col-3">
+                                <i class="fa fa-folder fa-5x"></i>
+                            </div>
+                            <div class="col-9 text-right">
+                                <span> Danh mục sản phẩm </span>
+                                <h2 class="font-bold">1</h2>
+                                <a href="#" title="Category" style="color: Black"><span>  Truy cập ngay</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="widget style1 lazur-bg">
+                        <div class="row">
+                            <div class="col-3">
+                                <i class="fa fa-folder fa-5x"></i>
+                            </div>
+                            <div class="col-9 text-right">
+                                <span> Danh mục sản phẩm </span>
+                                <h2 class="font-bold">1</h2>
+                                <a href="#" title="Category" style="color: Black"><span>  Truy cập ngay</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- renderbody -->
+
+        <div class="footer">
+            <div class="float-right">
+                <strong>Version</strong> 3.0.4
+            </div>
+            <div>
+                <strong>Copyright</strong> &copy; Lê Gia Lai
+            </div>
+        </div>
+        </div>
+        
+        
+        
+    </div>
+
+    <!-- Mainly scripts -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Flot -->
+    <script src="js/plugins/flot/jquery.flot.js"></script>
+    <script src="js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+    <script src="js/plugins/flot/jquery.flot.spline.js"></script>
+    <script src="js/plugins/flot/jquery.flot.resize.js"></script>
+    <script src="js/plugins/flot/jquery.flot.pie.js"></script>
+
+    <!-- Peity -->
+    <script src="js/plugins/peity/jquery.peity.min.js"></script>
+    <script src="js/demo/peity-demo.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="js/inspinia.js"></script>
+    <script src="js/plugins/pace/pace.min.js"></script>
+
+    <!-- jQuery UI -->
+    <script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
+
+    <!-- GITTER -->
+    <script src="js/plugins/gritter/jquery.gritter.min.js"></script>
+
+    <!-- Sparkline -->
+    <script src="js/plugins/sparkline/jquery.sparkline.min.js"></script>
+
+    <!-- Sparkline demo data  -->
+    <script src="js/demo/sparkline-demo.js"></script>
+
+    <!-- ChartJS-->
+    <script src="js/plugins/chartJs/Chart.min.js"></script>
+
+    <!-- Toastr -->
+    <script src="js/plugins/toastr/toastr.min.js"></script>
+
+
+    <script>
+        $(document).ready(function() {
+            setTimeout(function() {
+                toastr.options = {
+                    closeButton: true,
+                    progressBar: true,
+                    showMethod: 'slideDown',
+                    timeOut: 4000
+                };
+                toastr.success( /*'Quản trị viên',*/ 'Bạn đã truy cập vào Trang quản trị');
+
+            }, 1300);
+        });
+    </script>
+</body>
+</html>
