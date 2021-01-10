@@ -45,14 +45,14 @@
                                             <td>
                                                 @if (item.Status == 1)
                                                 {
-                                                    <a href="@Url.Action("Status", "Category", new { id = item.Id })" class="btn btn-success btn-sm" title="Hiện"><i class="fa fa-toggle-on"></i></a>
+                                                    <div class="btn btn-success btn-sm btn-toggle-status" data-id="@Html.DisplayFor(modelItem => item.Id)" data-status="@Html.DisplayFor(modelItem => item.Status)" title="Hiện"><i class="fa fa-toggle-on"></i></div>
                                                 }
                                                 else
                                                 {
-                                                    <a href="@Url.Action("Status", "Category", new { id = item.Id })" class="btn btn-secondary btn-sm" title="Ẩn"><i class="fa fa-toggle-off"></i></a>
+                                                    <div class="btn btn-secondary btn-sm btn-toggle-status" data-id="@Html.DisplayFor(modelItem => item.Id)" data-status="@Html.DisplayFor(modelItem => item.Status)" title="Ẩn"><i class="fa fa-toggle-off"></i></div>
                                                 }
                                                 <div class="btn btn-secondary btn-sm btn-update" title="Sửa"><i class="fa fa-edit"></i></div>
-                                                <a href="@Url.Action("delTrash", "Category", new { id = item.Id })" class="btn btn-dark btn-sm" title="Xóa"><i class="fa fa-trash"></i></a>
+                                                <div class="btn btn-dark btn-sm btn-delTrash" title="Xóa" data-id="@Html.DisplayFor(modelItem => item.Id)"><i class="fa fa-trash"></i></div>
                                             </td>
 
                                         </tr>
@@ -70,11 +70,76 @@
 
 <script>
 
+    // Chuyển sang thùng rác
+    $('.btn-delTrash').click(function () {
+        var $id = $(this).data('id');
+        swal({
+            title: "Xóa thật hả, cần thì vô thùng rác kiếm lại nhé!?",
+            text: "Bạn chắc chắn xóa mẫu tin này chứ !",
+            type: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#DD6B55",
+            confirmButtonText: "Đúng, hãy xóa!",
+            cancelButtonText: "Không, giữ lại!",
+            closeOnConfirm: false,
+            closeOnCancel: false
+        },
+            function (isConfirm) {
+                if (isConfirm) {
+
+                    $.ajax({
+                        url: "Category/UpdateStatus",
+                        type: 'POST',
+                        data: {
+                            Id: $id,
+                            eStatus: 'IsTrash'
+                        },
+                        dataType: 'json',
+                        success: function (response) {
+
+                            if (response == 0) {
+                                swal("Xóa!", "Mẫu tin đã xóa thành công.", "success");
+                                getListByFilter()
+                            }
+                            else {
+                                swal("Error", "System error", "error");
+                            }
+                        }
+                    })
+                } else {
+                    swal("Không xóa", "Mẫu tin vẫn còn trong CSDL", "error");
+                }
+            });
+    });
+
+    // Thay đổi trạng thái
+    $('.btn-toggle-status').click(function () {
+        var $id = $(this).data('id');
+        var $eStatus = $(this).data('status') == 1 ? 'Hidden' : 'Active';
+        $.ajax({
+            url: "Category/UpdateStatus",
+            type: 'POST',
+            data: {
+                Id: $id,
+                eStatus: $eStatus
+            },
+            dataType: 'json',
+            success: function (response) {
+                if (response == 0) {
+                    swal("Success!", "Đã cập nhật lại trạng thái.", "success");
+                    getListByFilter()
+                }
+                else {
+                    swal("Error", "System error", "error");
+                }
+
+            }
+        })
+    });
 
     $(".btn-update").click(function () {
 
         var closest = $(this).closest("tr")
-
         $('#CategoryName').val(closest.find(".name a").html())
         if (closest.find(".category span").html() != '') {
             $('#SelectParent').val(closest.find(".category span").html())

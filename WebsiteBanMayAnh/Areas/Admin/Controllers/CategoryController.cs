@@ -15,9 +15,6 @@ namespace WebsiteBanMayAnh.Areas.Admin.Controllers
 {
     public class CategoryController : Controller
     {
-
-        private WebsiteBanMayAnhDbContext db = new WebsiteBanMayAnhDbContext();
-
         public ActionResult Index()
         {
             using (var db = new WebsiteBanMayAnhDbContext())
@@ -87,6 +84,7 @@ namespace WebsiteBanMayAnh.Areas.Admin.Controllers
             }
         }
         //modelCategory.Updated_by = int.Parse(Session["User_Id"].ToString());
+        [HttpPost]
         public ActionResult UpdateStatus(int id, EStatus eStatus)
         {
             using (var db = new WebsiteBanMayAnhDbContext())
@@ -102,12 +100,26 @@ namespace WebsiteBanMayAnh.Areas.Admin.Controllers
 
         public ActionResult GetListTrashCategory()
         {
-            return PartialView("_PartialListTrashCategory", db.Categorys.Where(m => m.Status == (short)EStatus.IsTrash).OrderByDescending(m => m.Id).Include(m => m.Category).ToList());
+            using (var db = new WebsiteBanMayAnhDbContext())
+            {
+                return PartialView("_PartialListTrashCategory", db.Categorys
+                    .Where(m => m.Status == (short)EStatus.IsTrash)
+                    .OrderByDescending(m => m.Id)
+                    .Include(m => m.Category)
+                    .ToList());
+            }
         }
 
         public ActionResult GetListCategory()
         {
-            return PartialView("_PartialListCategory", db.Categorys.Where(m => m.Status == (short)EStatus.Active).OrderByDescending(m => m.Id).Include(m => m.Category).ToList());
+            using (var db = new WebsiteBanMayAnhDbContext())
+            {
+                return PartialView("_PartialListCategory", db.Categorys
+                .Where(m => m.Status == (short)EStatus.Active || m.Status == (short)EStatus.Hidden)
+                .OrderByDescending(m => m.Id)
+                .Include(m => m.Category)
+                .ToList());
+            }
         }
     }
 }

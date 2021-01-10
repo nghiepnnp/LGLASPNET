@@ -4,6 +4,7 @@
     {
         Deleted = -1,
         IsTrash,
-        Active
+        Active,
+        Hidden
     }
 }
