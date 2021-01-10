@@ -15,6 +15,7 @@ namespace WebsiteBanMayAnh.Areas.Admin.Controllers
 {
     public class CategoryController : Controller
     {
+        // Test commit
         public ActionResult Index()
         {
             using (var db = new WebsiteBanMayAnhDbContext())
