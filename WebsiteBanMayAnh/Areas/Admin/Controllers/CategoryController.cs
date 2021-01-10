@@ -15,9 +15,6 @@ namespace WebsiteBanMayAnh.Areas.Admin.Controllers
 {
     public class CategoryController : Controller
     {
-
-        private WebsiteBanMayAnhDbContext db = new WebsiteBanMayAnhDbContext();
-
         public ActionResult Index()
         {
             using (var db = new WebsiteBanMayAnhDbContext())
