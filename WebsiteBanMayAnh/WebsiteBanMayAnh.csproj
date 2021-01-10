@@ -1186,9 +1186,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202101100832219_InitDb.cs" />
-    <Compile Include="Migrations\202101100832219_InitDb.Designer.cs">
-      <DependentUpon>202101100832219_InitDb.cs</DependentUpon>
+    <Compile Include="Migrations\202101101540204_2.cs" />
+    <Compile Include="Migrations\202101101540204_2.Designer.cs">
+      <DependentUpon>202101101540204_2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CartItem.cs" />
@@ -1381,8 +1381,8 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202101100832219_InitDb.resx">
-      <DependentUpon>202101100832219_InitDb.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202101101540204_2.resx">
+      <DependentUpon>202101101540204_2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
