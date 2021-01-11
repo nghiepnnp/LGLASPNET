@@ -28,13 +28,16 @@
     <link href="~/Public/css/animate.css" rel="stylesheet">
     <link href="~/Public/css/style.css" rel="stylesheet">
     <link href="~/Public/css/plugins/dataTables/datatables.min.css" rel="stylesheet">
-    
+
+    <link href="~/Public/css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+
     @* Auto load datatable khi get partial listview *@
     <script src="~/Public/js/jquery-3.1.1.min.js"></script>
     <script src="~/Public/js/bootstrap.js"></script>
     <script src="~/Public/js/popper.min.js"></script>
     <script src="~/Public/js/plugins/dataTables/datatables.min.js"></script>
     <script src="~/Public/js/plugins/dataTables/dataTables.bootstrap4.min.js"></script>
+    <script src="~/Public/js/plugins/sweetalert/sweetalert.min.js"></script>
 </head>
 
 <body>
@@ -83,48 +86,50 @@
     <!-- Toastr -->
     <script src="~/Public/js/plugins/toastr/toastr.min.js"></script>
 
-    <script>
-        //$(document).ready(function () {
-        //    setTimeout(function () {
-        //        toastr.options = {
-        //            closeButton: true,
-        //            progressBar: true,
-        //            showMethod: 'slideDown',
-        //            timeOut: 4000
-        //        };
-        //        toastr.success( /*'Quản trị viên',*/ 'Bạn đã truy cập vào Trang quản trị');
+    
 
-        //    }, 1300);
-        //});
+    <script>
+            //$(document).ready(function () {
+            //    setTimeout(function () {
+            //        toastr.options = {
+            //            closeButton: true,
+            //            progressBar: true,
+            //            showMethod: 'slideDown',
+            //            timeOut: 4000
+            //        };
+            //        toastr.success( /*'Quản trị viên',*/ 'Bạn đã truy cập vào Trang quản trị');
+
+            //    }, 1300);
+            //});
     </script>
     <script>
-        //$(document).ready(function () {
-        //    $('.dataTables-example').DataTable({
-        //        pageLength: 25,
-        //        responsive: true,
-        //        dom: '<"html5buttons"B>lTfgitp',
-        //        buttons: [
-        //            { extend: 'copy' },
-        //            { extend: 'csv' },
-        //            { extend: 'excel', title: 'ExampleFile' },
-        //            { extend: 'pdf', title: 'ExampleFile' },
+            //$(document).ready(function () {
+            //    $('.dataTables-example').DataTable({
+            //        pageLength: 25,
+            //        responsive: true,
+            //        dom: '<"html5buttons"B>lTfgitp',
+            //        buttons: [
+            //            { extend: 'copy' },
+            //            { extend: 'csv' },
+            //            { extend: 'excel', title: 'ExampleFile' },
+            //            { extend: 'pdf', title: 'ExampleFile' },
 
-        //            {
-        //                extend: 'print',
-        //                customize: function (win) {
-        //                    $(win.document.body).addClass('white-bg');
-        //                    $(win.document.body).css('font-size', '10px');
+            //            {
+            //                extend: 'print',
+            //                customize: function (win) {
+            //                    $(win.document.body).addClass('white-bg');
+            //                    $(win.document.body).css('font-size', '10px');
 
-        //                    $(win.document.body).find('table')
-        //                        .addClass('compact')
-        //                        .css('font-size', 'inherit');
-        //                }
-        //            }
-        //        ]
+            //                    $(win.document.body).find('table')
+            //                        .addClass('compact')
+            //                        .css('font-size', 'inherit');
+            //                }
+            //            }
+            //        ]
 
-        //    });
+            //    });
 
-        //});
+            //});
 
     </script>
 </body>
