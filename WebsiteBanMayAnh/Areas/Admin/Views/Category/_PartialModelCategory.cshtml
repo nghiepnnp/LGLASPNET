@@ -1,5 +1,42 @@
 ﻿@model IEnumerable<WebsiteBanMayAnh.Models.modelCategory>
-<div class="modal inmodal" id="myModal4" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="modal inmodal fade" id="myModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <div class="modal-title" id="modal-title">THÊM MỚI DANH MỤC</div>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <label>Tên danh mục</label>
+                            <input type="text" placeholder="Nhập tên danh mục" class="form-control" id="CategoryName">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="SelectParent">Chọn danh mục</label>
+                        <select class="form-control" id="SelectParent">
+                            <option>Là cấp cha</option>
+                            @foreach (var c in Model)
+                            {
+                                <option value="@c.Id">@c.Name</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary btn-create">Save changes</button>
+            </div>
+            <input type="text" value="0" hidden id="Id" />
+        </div>
+    </div>
+</div>
+@*<div class="modal inmodal" id="myModal4" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content animated fadeIn">
             <div class="modal-header">
@@ -29,7 +66,7 @@
             <input type="text" value="0" hidden id="Id"/>
         </div>
     </div>
-</div>
+</div>*@
 
 <script>
     $('.btn-create').click(function () {
@@ -50,7 +87,7 @@
             dataType: 'json',
             success: function (response) {
                 if (response == 0) {
-                    $("#myModal4 .close").click()
+                    $("#myModal5 .close").click()
                     getListByFilter()
                 }
                 else {
