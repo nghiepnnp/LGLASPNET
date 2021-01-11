@@ -3,7 +3,7 @@ namespace WebsiteBanMayAnh.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InitDb : DbMigration
+    public partial class _2 : DbMigration
     {
         public override void Up()
         {

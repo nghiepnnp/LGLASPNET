@@ -1,63 +1,244 @@
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csprojAssemblyReference.cache
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.Migrations.InitDb.resources
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.GenerateResource.cache
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.CoreCompileInputs.cache
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\ApplicationInsights.config
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\roslyn\csc.exe
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\roslyn\vbc.exe
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\roslyn\VBCSCompiler.exe
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\WebsiteBanMayAnh.dll.config
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\WebsiteBanMayAnh.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\WebsiteBanMayAnh.pdb
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\EntityFramework.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\EntityFramework.SqlServer.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\Microsoft.AI.Web.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\Microsoft.ApplicationInsights.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\Newtonsoft.Json.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\PagedList.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\PagedList.Mvc.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\System.Web.Helpers.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\System.Web.Mvc.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\System.Web.Razor.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\System.Web.Webpages.Deployment.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\System.Web.Webpages.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\System.Web.Webpages.Razor.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\EntityFramework.xml
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\EntityFramework.SqlServer.xml
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\Microsoft.AI.Web.xml
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\Microsoft.ApplicationInsights.xml
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\Newtonsoft.Json.xml
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\PagedList.xml
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\PagedList.Mvc.xml
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\System.Web.Razor.xml
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\System.Web.Webpages.xml
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\System.Web.Webpages.Deployment.xml
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\System.Web.Webpages.Razor.xml
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\System.Web.Helpers.xml
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\System.Web.Mvc.xml
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.CopyComplete
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.dll
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.pdb
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.Migrations.InitDb.resources
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.GenerateResource.cache
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.CoreCompileInputs.cache
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\ApplicationInsights.config
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\csc.exe
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\vbc.exe
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\VBCSCompiler.exe
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\WebsiteBanMayAnh.dll.config
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\WebsiteBanMayAnh.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\WebsiteBanMayAnh.pdb
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\EntityFramework.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\EntityFramework.SqlServer.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.Web.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.ApplicationInsights.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Newtonsoft.Json.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\PagedList.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\PagedList.Mvc.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Helpers.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Mvc.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Razor.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Webpages.Deployment.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Webpages.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Webpages.Razor.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\EntityFramework.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\EntityFramework.SqlServer.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.Web.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.ApplicationInsights.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Newtonsoft.Json.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\PagedList.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\PagedList.Mvc.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Razor.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Webpages.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Webpages.Deployment.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Webpages.Razor.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Helpers.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Mvc.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.CopyComplete
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.pdb
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.Migrations.UpdateModel.resources
+C:\Users\n.va.nghiep\Desktop\New folder (9)\LeGiaLai_2117110029\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\ApplicationInsights.config
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\csc.exe
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\vbc.exe
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\VBCSCompiler.exe
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\WebsiteBanMayAnh.dll.config
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\WebsiteBanMayAnh.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\WebsiteBanMayAnh.pdb
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\EntityFramework.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\EntityFramework.SqlServer.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.Web.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.ApplicationInsights.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\PagedList.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\PagedList.Mvc.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Helpers.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Mvc.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Razor.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Webpages.Deployment.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Webpages.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Webpages.Razor.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\EntityFramework.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\EntityFramework.SqlServer.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.Web.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.ApplicationInsights.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\Newtonsoft.Json.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\PagedList.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\PagedList.Mvc.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Razor.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Webpages.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Webpages.Deployment.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Webpages.Razor.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Helpers.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\bin\System.Web.Mvc.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.CopyComplete
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.pdb
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.Migrations._1.resources
+C:\Users\DELL\Desktop\LeGiaLai_2117110029\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\ApplicationInsights.config
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\csc.exe
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\vbc.exe
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\VBCSCompiler.exe
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\WebsiteBanMayAnh.dll.config
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\WebsiteBanMayAnh.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\WebsiteBanMayAnh.pdb
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\EntityFramework.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\EntityFramework.SqlServer.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.Web.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.ApplicationInsights.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\PagedList.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\PagedList.Mvc.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Helpers.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Mvc.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Razor.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Webpages.Deployment.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Webpages.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Webpages.Razor.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\EntityFramework.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\EntityFramework.SqlServer.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.Web.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.ApplicationInsights.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Newtonsoft.Json.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\PagedList.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\PagedList.Mvc.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Razor.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Webpages.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Webpages.Deployment.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Webpages.Razor.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Helpers.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Mvc.xml
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.Migrations._1.resources
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.CopyComplete
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.dll
+C:\Users\DELL\Desktop\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.pdb
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\ApplicationInsights.config
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\csc.exe
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\vbc.exe
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\VBCSCompiler.exe
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\WebsiteBanMayAnh.dll.config
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\WebsiteBanMayAnh.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\WebsiteBanMayAnh.pdb
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\EntityFramework.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\EntityFramework.SqlServer.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.Web.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.ApplicationInsights.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Newtonsoft.Json.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\PagedList.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\PagedList.Mvc.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Helpers.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Mvc.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Razor.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Webpages.Deployment.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Webpages.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Webpages.Razor.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\EntityFramework.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\EntityFramework.SqlServer.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.Web.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.ApplicationInsights.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\Newtonsoft.Json.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\PagedList.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\PagedList.Mvc.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Razor.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Webpages.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Webpages.Deployment.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Webpages.Razor.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Helpers.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\bin\System.Web.Mvc.xml
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csprojAssemblyReference.cache
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.CoreCompileInputs.cache
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.CopyComplete
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.dll
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.pdb
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.Migrations.InitDb.resources
+C:\Users\n.va.nghiep\Desktop\New folder (9)\New folder\LeGiaLai_2117110029 - Copy\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.GenerateResource.cache
 C:\Users\DELL\Source\Repos\LGLASPNET\WebsiteBanMayAnh\bin\ApplicationInsights.config
 C:\Users\DELL\Source\Repos\LGLASPNET\WebsiteBanMayAnh\bin\roslyn\csc.exe
 C:\Users\DELL\Source\Repos\LGLASPNET\WebsiteBanMayAnh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -112,9 +293,9 @@ C:\Users\DELL\Source\Repos\LGLASPNET\WebsiteBanMayAnh\bin\System.Web.Webpages.Ra
 C:\Users\DELL\Source\Repos\LGLASPNET\WebsiteBanMayAnh\bin\System.Web.Helpers.xml
 C:\Users\DELL\Source\Repos\LGLASPNET\WebsiteBanMayAnh\bin\System.Web.Mvc.xml
 C:\Users\DELL\Source\Repos\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csprojAssemblyReference.cache
-C:\Users\DELL\Source\Repos\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.Migrations.InitDb.resources
-C:\Users\DELL\Source\Repos\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.GenerateResource.cache
 C:\Users\DELL\Source\Repos\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.CoreCompileInputs.cache
 C:\Users\DELL\Source\Repos\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.CopyComplete
 C:\Users\DELL\Source\Repos\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.dll
 C:\Users\DELL\Source\Repos\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.pdb
+C:\Users\DELL\Source\Repos\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.Migrations._2.resources
+C:\Users\DELL\Source\Repos\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.GenerateResource.cache

@@ -1,11 +1,10 @@
 ﻿@model IEnumerable<WebsiteBanMayAnh.Models.modelCategory>
-
-<div class="modal inmodal fade" id="myModal5" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal inmodal" id="myModal5" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <div class="modal-title" id="modal-title">THÊM MỚI DANH MỤC</div>
+                <h4 class="modal-title">Thêm sản phẩm</h4>
             </div>
             <div class="modal-body">
                 <div class="row">
@@ -16,14 +15,16 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <label for="SelectParent">Chọn danh mục</label>
-                        <select class="form-control" id="SelectParent">
-                            <option>Là cấp cha</option>
-                            @foreach (var c in Model)
-                            {
-                                <option value="@c.Id">@c.Name</option>
-                            }
-                        </select>
+                        <div class="form-group">
+                            <label for="SelectParent">Chọn danh mục</label>
+                            <select class="form-control" id="SelectParent">
+                                <option>Là cấp cha</option>
+                                @foreach (var c in Model)
+                                {
+                                    <option value="@c.Id">@c.Name</option>
+                                }
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -35,9 +36,10 @@
             <input type="text" value="0" hidden id="Id" />
         </div>
     </div>
-</div>
-@*<div class="modal inmodal" id="myModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
+
+
+
+    @*<div class="modal-dialog">
         <div class="modal-content animated fadeIn">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -65,8 +67,8 @@
             </div>
             <input type="text" value="0" hidden id="Id"/>
         </div>
-    </div>
-</div>*@
+    </div>*@
+</div>
 
 <script>
     $('.btn-create').click(function () {
