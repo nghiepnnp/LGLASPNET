@@ -353,9 +353,9 @@ C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAn
 C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\System.Web.Helpers.xml
 C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\bin\System.Web.Mvc.xml
 C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csprojAssemblyReference.cache
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.Migrations._2.resources
-C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.GenerateResource.cache
 C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.CoreCompileInputs.cache
 C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.CopyComplete
 C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.dll
 C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.pdb
+C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.Migrations.Init.resources
+C:\Users\n.va.nghiep\Desktop\New folder (12)\nghiepnnp\LGLASPNET\WebsiteBanMayAnh\obj\Debug\WebsiteBanMayAnh.csproj.GenerateResource.cache

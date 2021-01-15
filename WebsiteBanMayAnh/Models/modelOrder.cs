@@ -30,5 +30,9 @@
         public string DeliveryPaymentMethod { get; set; }
         public int StatusPayment { get; set; }
 
+
+        [ForeignKey("CustemerId")]
+        public virtual modelUser modelUser { get; set; }
+
     }
 }

@@ -32,5 +32,7 @@ using System.Web;
         public DateTime? Updated_at { get; set; }
         public int? Updated_by { get; set; }
         public int? Status { get; set; }
+
+        public virtual ICollection<modelOrder> modelOrder { get; set; }
     }
 }

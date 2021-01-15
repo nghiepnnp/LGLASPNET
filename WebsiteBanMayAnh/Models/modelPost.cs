@@ -14,7 +14,7 @@ using System.Web;
     {
         [Key]
         public int Id { get; set; }
-        public int Topid { get; set; }
+        public int TopicId { get; set; }
         public string Title { get; set; }
         public string Slug { get; set; }
         public string Detail { get; set; }
@@ -27,5 +27,8 @@ using System.Web;
         public DateTime? Updated_At { get; set; }
         public int? Updated_By { get; set; }
         public int Status { get; set; }
+
+        [ForeignKey("TopicId")]
+        public virtual modelTopic modelTopic { get; set; }
     }
 }

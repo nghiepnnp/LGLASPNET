@@ -3,7 +3,7 @@ namespace WebsiteBanMayAnh.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class _2 : DbMigration
+    public partial class Init : DbMigration
     {
         public override void Up()
         {
@@ -114,7 +114,11 @@ namespace WebsiteBanMayAnh.Migrations
                         Quantity = c.Int(nullable: false),
                         Amount = c.Single(nullable: false),
                     })
-                .PrimaryKey(t => t.Id);
+                .PrimaryKey(t => t.Id)
+                .ForeignKey("dbo.Orders", t => t.OrderId, cascadeDelete: true)
+                .ForeignKey("dbo.Products", t => t.ProductId, cascadeDelete: true)
+                .Index(t => t.OrderId)
+                .Index(t => t.ProductId);
             
             CreateTable(
                 "dbo.Orders",
@@ -133,65 +137,9 @@ namespace WebsiteBanMayAnh.Migrations
                         DeliveryPaymentMethod = c.String(),
                         StatusPayment = c.Int(nullable: false),
                     })
-                .PrimaryKey(t => t.Id);
-            
-            CreateTable(
-                "dbo.Posts",
-                c => new
-                    {
-                        Id = c.Int(nullable: false, identity: true),
-                        Topid = c.Int(nullable: false),
-                        Title = c.String(),
-                        Slug = c.String(),
-                        Detail = c.String(),
-                        Img = c.String(),
-                        Type = c.String(),
-                        MetaKey = c.String(),
-                        MetaDesc = c.String(),
-                        Created_At = c.DateTime(),
-                        Created_By = c.Int(),
-                        Updated_At = c.DateTime(),
-                        Updated_By = c.Int(),
-                        Status = c.Int(nullable: false),
-                    })
-                .PrimaryKey(t => t.Id);
-            
-            CreateTable(
-                "dbo.Sliders",
-                c => new
-                    {
-                        Id = c.Int(nullable: false, identity: true),
-                        Name = c.String(nullable: false),
-                        Link = c.String(),
-                        Position = c.String(),
-                        Img = c.String(),
-                        Orders = c.Int(),
-                        Created_at = c.DateTime(),
-                        Created_by = c.Int(),
-                        Updated_at = c.DateTime(),
-                        Updated_by = c.Int(),
-                        Status = c.Int(),
-                    })
-                .PrimaryKey(t => t.Id);
-            
-            CreateTable(
-                "dbo.Topics",
-                c => new
-                    {
-                        Id = c.Int(nullable: false, identity: true),
-                        Name = c.String(nullable: false),
-                        Slug = c.String(),
-                        ParentId = c.Int(),
-                        Orders = c.Int(),
-                        Metakey = c.String(),
-                        Metadesc = c.String(),
-                        Created_at = c.DateTime(),
-                        Created_by = c.Int(),
-                        Updated_at = c.DateTime(),
-                        Updated_by = c.Int(),
-                        Status = c.Int(),
-                    })
-                .PrimaryKey(t => t.Id);
+                .PrimaryKey(t => t.Id)
+                .ForeignKey("dbo.Users", t => t.CustemerId, cascadeDelete: true)
+                .Index(t => t.CustemerId);
             
             CreateTable(
                 "dbo.Users",
@@ -214,18 +162,86 @@ namespace WebsiteBanMayAnh.Migrations
                     })
                 .PrimaryKey(t => t.Id);
             
+            CreateTable(
+                "dbo.Posts",
+                c => new
+                    {
+                        Id = c.Int(nullable: false, identity: true),
+                        TopicId = c.Int(nullable: false),
+                        Title = c.String(),
+                        Slug = c.String(),
+                        Detail = c.String(),
+                        Img = c.String(),
+                        Type = c.String(),
+                        MetaKey = c.String(),
+                        MetaDesc = c.String(),
+                        Created_At = c.DateTime(),
+                        Created_By = c.Int(),
+                        Updated_At = c.DateTime(),
+                        Updated_By = c.Int(),
+                        Status = c.Int(nullable: false),
+                    })
+                .PrimaryKey(t => t.Id)
+                .ForeignKey("dbo.Topics", t => t.TopicId, cascadeDelete: true)
+                .Index(t => t.TopicId);
+            
+            CreateTable(
+                "dbo.Topics",
+                c => new
+                    {
+                        Id = c.Int(nullable: false, identity: true),
+                        Name = c.String(nullable: false),
+                        Slug = c.String(),
+                        ParentId = c.Int(),
+                        Orders = c.Int(),
+                        Metakey = c.String(),
+                        Metadesc = c.String(),
+                        Created_at = c.DateTime(),
+                        Created_by = c.Int(),
+                        Updated_at = c.DateTime(),
+                        Updated_by = c.Int(),
+                        Status = c.Int(),
+                    })
+                .PrimaryKey(t => t.Id);
+            
+            CreateTable(
+                "dbo.Sliders",
+                c => new
+                    {
+                        Id = c.Int(nullable: false, identity: true),
+                        Name = c.String(nullable: false),
+                        Link = c.String(),
+                        Position = c.String(),
+                        Img = c.String(),
+                        Orders = c.Int(),
+                        Created_at = c.DateTime(),
+                        Created_by = c.Int(),
+                        Updated_at = c.DateTime(),
+                        Updated_by = c.Int(),
+                        Status = c.Int(),
+                    })
+                .PrimaryKey(t => t.Id);
+            
         }
         
         public override void Down()
         {
+            DropForeignKey("dbo.Posts", "TopicId", "dbo.Topics");
+            DropForeignKey("dbo.OrderDetails", "ProductId", "dbo.Products");
+            DropForeignKey("dbo.OrderDetails", "OrderId", "dbo.Orders");
+            DropForeignKey("dbo.Orders", "CustemerId", "dbo.Users");
             DropForeignKey("dbo.Products", "CategoryId", "dbo.Categorys");
             DropForeignKey("dbo.Categorys", "ParentId", "dbo.Categorys");
+            DropIndex("dbo.Posts", new[] { "TopicId" });
+            DropIndex("dbo.Orders", new[] { "CustemerId" });
+            DropIndex("dbo.OrderDetails", new[] { "ProductId" });
+            DropIndex("dbo.OrderDetails", new[] { "OrderId" });
             DropIndex("dbo.Products", new[] { "CategoryId" });
             DropIndex("dbo.Categorys", new[] { "ParentId" });
-            DropTable("dbo.Users");
-            DropTable("dbo.Topics");
             DropTable("dbo.Sliders");
+            DropTable("dbo.Topics");
             DropTable("dbo.Posts");
+            DropTable("dbo.Users");
             DropTable("dbo.Orders");
             DropTable("dbo.OrderDetails");
             DropTable("dbo.Menus");
