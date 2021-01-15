@@ -19,5 +19,10 @@
         [Required]
         public float Amount { get; set; }
 
+        [ForeignKey("ProductId")]
+        public virtual modelProduct modelProduct { get; set; }
+
+        [ForeignKey("OrderId")]
+        public virtual modelOrder modelOrder { get; set; }
     }
 }

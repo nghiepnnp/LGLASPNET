@@ -21,7 +21,7 @@ namespace WebsiteBanMayAnh.Areas.Admin.Controllers
             ViewBag.demrac = db.Posts.Where(m => m.Status == 0 && m.Type == "post").Count();
             var list = from p in db.Posts
                        join t in db.Topics
-                       on p.Topid equals t.Id
+                       on p.TopicId equals t.Id
                        where p.Status != 0
                        orderby p.Created_At descending
                        select new PostTopic()
@@ -181,7 +181,7 @@ namespace WebsiteBanMayAnh.Areas.Admin.Controllers
         {
             var list = from p in db.Posts
                        join t in db.Topics
-                       on p.Topid equals t.Id
+                       on p.TopicId equals t.Id
                        where p.Status == 0
                        orderby p.Created_At descending
                        select new PostTopic()

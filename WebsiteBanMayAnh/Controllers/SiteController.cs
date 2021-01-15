@@ -102,7 +102,7 @@ using PagedList;
             var model = db.Posts
                  .Where(m => m.Slug == slug && m.Status == 1)
                  .First();
-            int topid = model.Topid;
+            int topid = model.TopicId;
 
             List<int> listtopid = new List<int>();
             listtopid.Add(topid);
@@ -126,7 +126,7 @@ using PagedList;
             // danh mục cùng bài viết
             ViewBag.listother = db.Posts
                 .Where(m => m.Status == 1 && listtopid
-                .Contains(m.Topid) && m.Id != model.Id)
+                .Contains(m.TopicId) && m.Id != model.Id)
                 .OrderByDescending(m => m.Created_At)
                 .Take(12)
                 .ToList();
@@ -172,7 +172,7 @@ using PagedList;
                 }
             }
             var list = db.Posts
-                .Where(m => m.Status == 1 && listtopid.Contains(m.Topid))
+                .Where(m => m.Status == 1 && listtopid.Contains(m.TopicId))
                 .OrderByDescending(m => m.Created_At);
 
 
@@ -365,7 +365,7 @@ using PagedList;
 
             var list = db.Posts
                 .Where(m => m.Status == 1 && listtopid
-                .Contains(m.Topid))
+                .Contains(m.TopicId))
                 .Take(12)
                 .OrderByDescending(m => m.Created_At);
             return View("_PostHome", list);
@@ -393,7 +393,7 @@ using PagedList;
 
             var list = db.Posts
                 .Where(m => m.Status == 1 && listtopid
-                .Contains(m.Topid))
+                .Contains(m.TopicId))
                 .Take(12)
                 .OrderByDescending(m => m.Created_At);
             //var list = from p in db.Posts

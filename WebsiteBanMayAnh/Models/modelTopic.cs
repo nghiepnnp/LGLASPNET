@@ -1,14 +1,9 @@
-﻿namespace WebsiteBanMayAnh.Models
-{
-    using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Web;
-
-
-    
+namespace WebsiteBanMayAnh.Models
+{
     [Table("Topics")]
     public class modelTopic
     {
@@ -37,5 +32,7 @@ using System.Web;
         public int? Updated_by { get; set; }
 
         public int? Status { get; set; }
+
+        public virtual ICollection<modelPost> modelPost { get; set; }
     }
 }
