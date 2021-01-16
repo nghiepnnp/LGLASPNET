@@ -1,100 +1,142 @@
 ﻿@model IEnumerable<WebsiteBanMayAnh.Models.modelCategory>
-<div class="wrapper wrapper-content animated fadeInRight">
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="ibox ">
-                <div class="ibox-content">
-
-                    <div class="table-responsive">
-                        <table class="table table-striped table-bordered table-hover dataTables-example">
-                            <thead>
-                                <tr>
-                                    <th>STT</th>
-                                    <th>Tên sản phẩm</th>
-                                    <th>Cấp cha</th>
-                                    <th>Ngày tạo</th>
-                                    <th>Link</th>
-                                    <th>Công cụ</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-
-                                @{ int stt = 1;
-                                    foreach (var item in Model)
-                                    {
-                                        <tr>
-                                            <td>
-                                                @stt
-                                            </td>
-                                            <td>
-                                                <a href="@Url.Action("Details", "Category", new { Id = item.Id })">@item.Name</a>
-                                            </td>
-                                            <td>
-                                                @Html.DisplayFor(modelItem => item.Category.Name)
-                                            </td>
-                                            <td>
-                                                @Html.DisplayFor(modelItem => item.Updated_at)
-                                            </td>
-                                            <td>
-                                                @Html.DisplayFor(modelItem => item.Slug)
-                                            </td>
-                                            <td>
-                                                @if (item.Status == 1)
-                                                {
-                                                    <a href="@Url.Action("Status", "Category", new { id = item.Id })" class="btn btn-success btn-sm" title="Hiện"><i class="fa fa-toggle-on"></i></a>
-                                                }
-                                                else
-                                                {
-                                                    <a href="@Url.Action("Status", "Category", new { id = item.Id })" class="btn btn-secondary btn-sm" title="Ẩn"><i class="fa fa-toggle-off"></i></a>
-                                                }
-                                                <a href="@Url.Action("Edit", "Category", new { id = item.Id })" class="btn btn-secondary btn-sm" title="Sửa"><i class="fa fa-edit"></i></a>
-                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">
-                                                    <i class="fa fa-plus-square">Thêm mới</i>
-                                                </button>
-                                                <a href="@Url.Action("delTrash", "Category", new { id = item.Id })" class="btn btn-dark btn-sm" title="Xóa"><i class="fa fa-trash"></i></a>
-                                            </td>
-
-                                        </tr>
-                                        stt++;
-                                    }
+@{ if (Model.Any())
+    {
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Tên danh mục</th>
+                        <th>Cấp cha</th>
+                        <th>Ngày tạo</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{ int stt = 1;}
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@stt</td>
+                            <td>@item.Name</td>
+                            @{ if (item.Category?.Name == null)
+                                {
+                                    <td></td>
                                 }
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+                                else
+                                {
+                                    <td> @item.Category.Name</td>
+                                }
+                            }
+                            <td>@item.Created_at</td>
+                            <td>
+                                <button class="btn btn-info btn-Undo btn-sm" data-id="@item.Id">
+                                    <i class="fa fa-undo"></i>
+                                </button>
+                                <button class="btn btn-danger btn-Del btn-sm" data-id="@item.Id">
+                                    <i class="fa fa-trash"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        stt++;
+                    }
+
+                </tbody>
+            </table>
         </div>
-    </div>
-</div>
+    }
+    else
+    {
+        <div class="text-center">Thùng rác của bạn đang trống. </div>
+    } }
 
 <script>
-    $(function () {
-        $(document).ready(function () {
-            $('.dataTables-example').DataTable({
-                pageLength: 25,
-                responsive: true,
-                dom: '<"html5buttons"B>lTfgitp',
-                buttons: [
-                    { extend: 'copy' },
-                    { extend: 'csv' },
-                    { extend: 'excel', title: 'ExampleFile' },
-                    { extend: 'pdf', title: 'ExampleFile' },
 
-                    {
-                        extend: 'print',
-                        customize: function (win) {
-                            $(win.document.body).addClass('white-bg');
-                            $(win.document.body).css('font-size', '10px');
+    $('.btn-Undo').click(function () {
+        var $id = $(this).data('id');
+        var __this = $(this);
+        swal({
+            title: "Khôi phục?",
+            text: "Bạn chắc chắn xóa mẫu tin này chứ !",
+            type: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#DD6B55",
+            confirmButtonText: "Đúng, hãy xóa!",
+            cancelButtonText: "Không, giữ lại!",
+            closeOnConfirm: false,
+            closeOnCancel: false
+        },
+            function (isConfirm) {
+                if (isConfirm) {
 
-                            $(win.document.body).find('table')
-                                .addClass('compact')
-                                .css('font-size', 'inherit');
+                    $.ajax({
+                        url: "/Category/UpdateStatus",
+                        type: 'POST',
+                        data: {
+                            Id: $id,
+                            eStatus: 'Active'
+                        },
+                        dataType: 'json',
+                        success: function (response) {
+
+                            if (response == 0) {
+
+                                swal("", "", "success");
+                                getListByFilter()
+                                getListTrashByFilter()
+                                $("#countTrash").html(parseInt($("#countTrash").html()) - 1)
+                            }
+                            else {
+                                swal("Error", "System error", "error");
+                            }
                         }
-                    }
-                ]
-
+                    })
+                } else {
+                    swal(":))", "~-~", "error");
+                }
             });
+    });
 
-        });
-    })
+    // Delete set status == -1
+    $('.btn-Del').click(function () {
+        var $id = $(this).data('id');
+        swal({
+            title: "Xóa?",
+            text: "Bạn chắc chắn xóa mẫu tin này chứ !",
+            type: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#DD6B55",
+            confirmButtonText: "Đúng, hãy xóa!",
+            cancelButtonText: "Không, giữ lại!",
+            closeOnConfirm: false,
+            closeOnCancel: false
+        },
+            function (isConfirm) {
+                if (isConfirm) {
+
+                    $.ajax({
+                        url: "/Category/UpdateStatus",
+                        type: 'POST',
+                        data: {
+                            Id: $id,
+                            eStatus: 'Deleted'
+                        },
+                        dataType: 'json',
+                        success: function (response) {
+
+                            if (response == 0) {
+                                swal("Xóa!", "Mẫu tin đã xóa thành công.", "success");
+                                getListTrashByFilter()
+                                $("#countTrash").html(parseInt($("#countTrash").html()) - 1)
+                            }
+                            else {
+                                swal("Error", "System error", "error");
+                            }
+                        }
+                    })
+                } else {
+                    swal(":))", "~-~", "error");
+                }
+            });
+    });
 </script>

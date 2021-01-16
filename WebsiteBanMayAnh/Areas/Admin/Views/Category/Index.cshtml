@@ -22,15 +22,66 @@
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal5">
                 <i class="fa fa-plus-square">Thêm mới</i>
             </button>
-            <a href="@Url.Action("Trash","Category")" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> Thùng rác (@ViewBag.demrac)</a>
+            <button type="button" class="btn btn-primary" id="btn-Trash">
+                Thùng rác (<div id="countTrash" class="d-inline">@ViewBag.demrac</div>)
+            </button>
+
         </div>
     </div>
     <div id="content"></div>
 </div>
 
+<div class="modal inmodal fade" id="ModalTrash" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Thùng rác</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="wrapper wrapper-content animated fadeInRight">
+
+                        <div class="ibox ">
+                            <div id="list-trash"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 <script>
     $().ready(getListByFilter);
+
+    $("#btn-Trash").click(function () {
+        $('#ModalTrash').modal("show");
+        getListTrashByFilter()
+    })
+
     function getListByFilter() {
         $.get("@Url.Action("GetListCategory", "Category")", (result, status) => $("#content").html(result));
+    }
+    function getListTrashByFilter() {
+        $.get("@Url.Action("GetListTrashCategory", "Category")", (result, status) => $("#list-trash").html(result));
     }
 </script>
