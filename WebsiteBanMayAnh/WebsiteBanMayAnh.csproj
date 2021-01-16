@@ -1186,9 +1186,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202101151607367_Init.cs" />
-    <Compile Include="Migrations\202101151607367_Init.Designer.cs">
-      <DependentUpon>202101151607367_Init.cs</DependentUpon>
+    <Compile Include="Migrations\202101161144515_InitDb.cs" />
+    <Compile Include="Migrations\202101161144515_InitDb.Designer.cs">
+      <DependentUpon>202101161144515_InitDb.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CartItem.cs" />
@@ -1232,7 +1232,6 @@
     <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\Admin\Views\Shared\_LayoutAdmin.cshtml" />
     <Content Include="Areas\Admin\Views\Dashboard\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\Category\Trash.cshtml" />
     <Content Include="Areas\Admin\Views\Contact\Create.cshtml" />
     <Content Include="Areas\Admin\Views\Contact\Delete.cshtml" />
     <Content Include="Areas\Admin\Views\Contact\Details.cshtml" />
@@ -1377,8 +1376,8 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202101151607367_Init.resx">
-      <DependentUpon>202101151607367_Init.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202101161144515_InitDb.resx">
+      <DependentUpon>202101161144515_InitDb.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

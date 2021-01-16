@@ -102,7 +102,11 @@ namespace WebsiteBanMayAnh.Areas.Admin.Controllers
         {
             using (var db = new WebsiteBanMayAnhDbContext())
             {
-                return PartialView("_PartialListTrashCategory", db.Categorys.Where(m => m.Status == (short)EStatus.IsTrash).OrderByDescending(m => m.Id).Include(m => m.Category).ToList());
+                return PartialView("_PartialListTrashCategory", db.Categorys
+                    .Where(m => m.Status == (short)EStatus.IsTrash)
+                    .OrderByDescending(m => m.Id)
+                    .Include(m => m.Category)
+                    .ToList());
             }
         }
 
@@ -110,7 +114,11 @@ namespace WebsiteBanMayAnh.Areas.Admin.Controllers
         {
             using (var db = new WebsiteBanMayAnhDbContext())
             {
-                return PartialView("_PartialListCategory", db.Categorys.Where(m => m.Status == (short)EStatus.Active || m.Status == (short)EStatus.Hidden).OrderByDescending(m => m.Id).Include(m => m.Category).ToList());
+                return PartialView("_PartialListCategory", db.Categorys
+                    .Where(m => m.Status == (short)EStatus.Active || m.Status == (short)EStatus.Hidden)
+                    .OrderByDescending(m => m.Id)
+                    .Include(m => m.Category)
+                    .ToList());
             }
         }
     }
